@@ -7,6 +7,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <Lottery />
+        <Lottery title="Mini Daily" maxNum={15} numBalls={15} />
       </div>
     );
   }
